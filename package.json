@@ -1,0 +1,30 @@
+{
+  "name": "corstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finnjordal/CORStest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finnjordal/CORStest/issues"
+  },
+  "homepage": "https://github.com/finnjordal/CORStest#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "dawa-util": "^0.1.13",
+    "mdn-polyfills": "^5.19.0",
+    "whatwg-fetch": "^3.0.0"
+  }
+}
